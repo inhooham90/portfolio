@@ -1,15 +1,21 @@
 <!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Inhoo Ham</title>
+		<title>James Ham | Full-Stack Engineer</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="James (Inhoo) Ham — full-stack engineer in NYC. 4+ years at Casper re-platforming the storefront CMS and lifting Lighthouse scores from the 20s into the 90s. Y Combinator-finalist founder." />
+		<meta property="og:title" content="James Ham | Full-Stack Engineer" />
+		<meta property="og:description" content="Full-stack engineer in NYC. 4+ years at Casper, Y Combinator-finalist founder. I build products end to end, with an eye for craft." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://inhooham90.github.io/portfolio/" />
+		<meta property="og:image" content="https://inhooham90.github.io/portfolio/images/pic00.jpg" />
+		<meta name="twitter:card" content="summary" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/hero.css" />
+		<link rel="stylesheet" href="assets/css/sections.css" />
+		<noscript><style>[data-reveal], [data-inview] { opacity: 1 !important; transform: none !important; }</style></noscript>
 		<link rel="icon"
       type="image/png"
       href="images/favi.png">
@@ -20,79 +26,192 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#work">Me</a></li>
+					<li><a href="#experience">Experience</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
+				<div class="hero-bg" aria-hidden="true">
+					<span class="hero-blob hero-blob--a"></span>
+					<span class="hero-blob hero-blob--b"></span>
+					<span class="hero-blob hero-blob--c"></span>
+					<span class="hero-grid"></span>
+				</div>
 				<div class="container">
-					<div class="row">
+					<div class="row aln-middle">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+							<div class="hero-portrait">
+								<span class="hero-portrait-ring" aria-hidden="true"></span>
+								<span class="image fit hero-portrait-image">
+									<img src="images/pic00.jpg" width="900" height="900" alt="Portrait of James Ham" fetchpriority="high" />
+								</span>
+							</div>
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
+							<p class="hero-eyebrow" data-reveal style="--d:0">Full-Stack Engineer</p>
 							<header>
-								<h1>Hi. I'm <strong>Inhoo Ham</strong>.</h1>
-								( You can also call me <strong>James</strong>. )
+								<h1 class="hero-heading">
+									<span class="hero-line" data-reveal style="--d:1">Hi. I'm <strong>James Ham</strong>.</span>
+									<span class="hero-line hero-subline" data-reveal style="--d:2">( Also known as <strong>Inhoo</strong>. )</span>
+								</h1>
 							</header>
-							<p>And I am a <strong>Software Developer</strong> based in New York City.</p>
-							<a href="#work" class="button medium scrolly">Learn About Me</a>
+							<p class="hero-tagline" data-reveal style="--d:3">I build <strong>full-stack</strong> products end to end, with an eye for craft — based in NYC.</p>
+							<div class="hero-actions" data-reveal style="--d:4">
+								<a href="#work" class="button medium scrolly hero-cta"><span>Learn About Me</span></a>
+								<a href="assets/James%20Ham%20-%20Resume.pdf" class="hero-link" target="_blank" rel="noopener">Resume <span class="hero-link-arrow">&rarr;</span></a>
+								<a href="#contact" class="hero-link scrolly">Say hello <span class="hero-link-arrow">&rarr;</span></a>
+							</div>
 						</div>
 					</div>
 				</div>
+				<a href="#work" class="hero-scroll-cue scrolly" aria-label="Scroll to About Me">
+					<span class="hero-scroll-cue-track"><span class="hero-scroll-cue-dot"></span></span>
+					<span>Scroll</span>
+				</a>
 			</article>
 
 		<!-- Work -->
 			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2>About Me</h2>
-						<p>A passionate developer with an entrepreneurial mind.</p>
+						<p class="section-kicker" data-inview>01 — About</p>
+						<h2 data-inview>About Me</h2>
+						<p data-inview>I'm happiest on a small, product-obsessed team where an engineer owns things end to end and craft gets noticed.</p>
 					</header>
 					<div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa fa-laptop"></span>
-								<h3>Software Developer</h3>
+							<section class="box style1 about-card" data-inview style="--i:0">
+								<h3>Full-Stack Engineer</h3>
 								<p>
-									Graduated App Academy's 1000-hour immersive web development course that has < 3% acceptance rate in 2018.
+									4+ years at Casper, re-platforming the storefront CMS, automating the migration, and lifting Lighthouse scores from the 20s into the 90s.
 								</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured 	fa fa-users"></span>
-								<h3>People Person</h3>
+							<section class="box style1 about-card" data-inview style="--i:1">
+								<h3>Builder &amp; Founder</h3>
 								<p>
-									Graduated from Dale Carnegie leadership program and takes pride in being coachable.
+									Co-founded Nobos, a hospitality marketplace and Y Combinator finalist, growing it to $40k+ GMV with 80 brands and 150+ hotels onboarded.
 								</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa fa-globe"></span>
-								<h3>Open Minded</h3>
+							<section class="box style1 about-card" data-inview style="--i:2">
+								<h3>Craftsman</h3>
 								<p>
-									Having experience in different positions helped me learn to solve problems creatively and be self motivated.
+									The same patience that goes into a slow-smoked rack of ribs or a clean golf swing shows up in the code — trained to sweat the details until they're right.
 								</p>
 							</section>
 						</div>
 					</div>
 					<footer>
-						<ul class='skillsets'>
-							<li>React</li>
-							<li>Redux</li>
-							<li>JavaScript</li>
-							<li>Ruby</li>
-							<li>Rails</li>
-							<li>JQuery</li>
-							<li>SQL</li>
-							<li>Git</li>
-							<li>HTML</li>
-							<li>CSS</li>
-						</ul>
+						<div class="skill-marquee" data-inview style="--i:3" aria-label="Skills">
+							<div class="skill-track">
+								<ul class="skillsets">
+									<li>Next.js</li>
+									<li>TypeScript</li>
+									<li>Nest.js</li>
+									<li>Postgres</li>
+									<li>JavaScript</li>
+									<li>React</li>
+									<li>Redux</li>
+									<li>Node</li>
+									<li>Ruby on Rails</li>
+									<li>Python</li>
+									<li>GraphQL</li>
+									<li>MongoDB</li>
+									<li>React Native</li>
+									<li>SASS / CSS</li>
+									<li>Git</li>
+									<li>OpenAI &amp; Claude APIs</li>
+									<li>GitHub Actions</li>
+								</ul>
+								<ul class="skillsets" aria-hidden="true">
+									<li>Next.js</li>
+									<li>TypeScript</li>
+									<li>Nest.js</li>
+									<li>Postgres</li>
+									<li>JavaScript</li>
+									<li>React</li>
+									<li>Redux</li>
+									<li>Node</li>
+									<li>Ruby on Rails</li>
+									<li>Python</li>
+									<li>GraphQL</li>
+									<li>MongoDB</li>
+									<li>React Native</li>
+									<li>SASS / CSS</li>
+									<li>Git</li>
+									<li>OpenAI &amp; Claude APIs</li>
+									<li>GitHub Actions</li>
+								</ul>
+							</div>
+						</div>
+						<a href="#experience" class="button medium scrolly" data-inview style="--i:4">See my experience</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Experience -->
+			<article id="experience" class="wrapper style3 experience-dark">
+				<div class="container">
+					<header>
+						<p class="section-kicker" data-inview>02 — Experience</p>
+						<h2 data-inview>Experience</h2>
+					</header>
+					<div class="timeline">
+						<div class="timeline-line" aria-hidden="true"><span class="timeline-line-progress"></span></div>
+						<div class="timeline-entry" data-inview>
+							<span class="timeline-dot" aria-hidden="true"></span>
+							<section class="box style1 experience-box">
+								<h3>Recruitifi — QA Automation Engineer</h3>
+								<p class="meta">2019 · New York</p>
+								<ul>
+									<li>Stood up automated unit, integration, and e2e testing from scratch with RSpec, Jest, and Cypress — and taught the team TDD.</li>
+								</ul>
+							</section>
+						</div>
+						<div class="timeline-entry" data-inview>
+							<span class="timeline-dot" aria-hidden="true"></span>
+							<section class="box style1 experience-box">
+								<h3>Nobos — Co-founder &amp; Full-stack Engineer</h3>
+								<p class="meta">Mar 2019 – Jun 2020 · New York · Y Combinator finalist</p>
+								<ul>
+									<li>Designed and built the V1 platform, front to back, and raised early funding as a YC finalist.</li>
+									<li>Pivoted from retail shelf-space rental into a hospitality marketplace connecting emerging food brands with buyers.</li>
+									<li>Grew GMV past $40k with 80 brands, 50+ hospitality purchasers, and 150+ hotels onboarded.</li>
+								</ul>
+							</section>
+						</div>
+						<div class="timeline-entry" data-inview>
+							<span class="timeline-dot" aria-hidden="true"></span>
+							<section class="box style1 experience-box">
+								<h3>Myxx — Lead Software Engineer</h3>
+								<p class="meta">May 2021 – Mar 2022 · Remote</p>
+								<ul>
+									<li>Rebuilt legacy products for up to 7× performance gains across 10k+ monthly users.</li>
+									<li>Automated internal data and reporting pipelines, replacing manual spreadsheet work for the team.</li>
+									<li>Led product and engineering meetings; managed third-party engineering teams and data scientists.</li>
+									<li>Built with Next.js / Nest.js, React, Redux, GraphQL, and MongoDB.</li>
+								</ul>
+							</section>
+						</div>
+						<div class="timeline-entry" data-inview>
+							<span class="timeline-dot" aria-hidden="true"></span>
+							<section class="box style1 experience-box">
+								<h3>Casper — Software Engineer</h3>
+								<p class="meta">Apr 2022 – Present · Remote</p>
+								<ul>
+									<li>Stayed through the lean years on conviction and grew with the company through its acquisition.</li>
+									<li>Re-platformed the storefront CMS from Contentful to Salesforce to Shopify.</li>
+									<li>Lifted the site's Lighthouse performance score from the 20s into the 90s.</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+					<footer>
 						<a href="#portfolio" class="button medium scrolly">See some of my recent work</a>
 					</footer>
 				</div>
@@ -103,79 +222,31 @@
 				<div class="container">
 					<header>
 						<h2>Here's some of my work.</h2>
-						<p></p>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://www.pencilup.com/#/books/5/chapters/16" target="_blank" class="image featured"><img src="images/pencilup.png"
-										alt="inhooham90" /></a>
-								<h3><a href="https://www.pencilup.com/#/books/5/chapters/16" target="_blank">Pencil Up</a></h3>
-								<p>Responsive blogging app for writers</p>
+								<a href="https://akkija.com" target="_blank" rel="noopener" class="image featured"><img src="images/akkija.png" alt="Akkija — design studio homepage screenshot" loading="lazy" /></a>
+								<h3><a href="https://akkija.com" target="_blank" rel="noopener">Akkija</a></h3>
+								<p>DocSend-style deck sharing plus a private review &amp; comment tool made for wife's business.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://fortytwopx.herokuapp.com/" target="_blank" class="image featured"><img src="images/main.jpg" alt="inhooham90" /></a>
-								<h3><a href="https://fortytwopx.herokuapp.com/">42px</a></h3>
-								<p>Single page clone of 500px</p>
+								<span class="image featured"><img src="images/pencilup.png" alt="Pencil Up — landing page screenshot" loading="lazy" /></span>
+								<h3>Pencil Up</h3>
+								<p>Responsive blogging app for writers, artists, and other creative minds · Sold in 2021</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="https://jamsuham22.github.io/escape/" target="_blank" class="image featured"><img src="images/stalker.jpg" alt="inhooham90" /></a>
-								<h3><a href="https://github.com/jamsuham22/escape" target="_blank">Stalker</a></h3>
-								<p>Escape room inspired game</p>
+								<span class="image featured"><img src="images/nobbos.png" alt="Nobos — marketplace screenshot" loading="lazy" /></span>
+								<h3>Nobos v1</h3>
+								<p>Marketplace platform connecting emerging brands with NYC retails spaces · Y Combinator finalist</p>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://nobbos.herokuapp.com/" target="_blank" class="image featured"><img src="images/nobbos.png"
-										alt="inhooham90" /></a>
-								<h3><a href="https://nobbos.herokuapp.com/" target="_blank">Nobbos v1</a></h3>
-								<p>Retail shelf rental for brands</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://yylibrary.herokuapp.com/" target="_blank" class="image featured"><img src="images/lib.png"
-										alt="inhooham90" /></a>
-								<h3><a href="https://yylibrary.herokuapp.com/" target="_blank">YY Library</a></h3>
-								<p>Private church library app (incomplete)</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://jamsuham22.github.io/legendary-potato/" target="_blank" class="image featured"><img src="images/potato.png"
-										alt="inhooham90" /></a>
-								<h3><a href="https://jamsuham22.github.io/legendary-potato/" target="_blank">Legendary Potato</a></h3>
-								<p>Potato fighting game (incomplete)</p>
-							</article>
-						</div>
-						<!-- <div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div> -->
 					</div>
 					<footer>
-						<p></p>
 						<a href="#contact" class="button large scrolly">Contact Me</a>
 					</footer>
 				</div>
@@ -184,65 +255,30 @@
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
 				<div class="container medium">
-					<header>
-						<h2>Email me!</h2>
-						<p>I will get back to you in 24 hours.</p>
-					</header>
+
+					<div class="closing-note">
+						<p class="section-kicker">What I'm looking for</p>
+						<p>I’m a product-minded full-stack engineer and builder who cares about turning early ideas into polished, useful products.
+						I’ve worked across startups, e-commerce, design systems, performance, and creative production — and I’m most energized
+						in zero-to-one environments where strong engineers are trusted to move fast, think clearly, and own outcomes from idea
+						to launch.</p>
+					</div>
+
 					<div class="row">
-						<div class="col-12">
-							<form method="post" action="https://formspree.io/inhooham90@gmail.com">
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
 						<div class="col-12">
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
 								<li><a href="https://www.linkedin.com/in/in-hoo-ham-824982108/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/jamsuham22" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://angel.co/inhoo-j-ham" class="icon fa-angellist"><span class="label">Angellist</span></a></li>
-								<!--
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-								-->
+								<li><a href="https://github.com/inhooham90" class="icon fa-github"><span class="label">Github</span></a></li>
 							</ul>
+							<p>Or grab a copy of my <a href="assets/James%20Ham%20-%20Resume.pdf" target="_blank" rel="noopener">resume (PDF)</a>.</p>
 							<hr />
 						</div>
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
+							<li>&copy; All rights reserved.</li>
 					</footer>
 				</div>
 			</article>
@@ -254,6 +290,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/hero.js" defer></script>
+			<script src="assets/js/scroll-reveal.js" defer></script>
+			<script src="assets/js/timeline.js" defer></script>
 
 	</body>
 </html>
