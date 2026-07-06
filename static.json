@@ -1,0 +1,5 @@
+{
+  "root": ".",
+  "https_only": true,
+  "clean_urls": false
+}
